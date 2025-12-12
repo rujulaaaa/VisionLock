@@ -13,8 +13,7 @@ Some of these topics might not show up directly in our final project, but trust 
 3. Our first ML concept will be **[Linear Regression](https://github.com/rujulaaaa/VisionLock/tree/main/Week%201/Linear%20regression)**, a powerful technique for modeling relationships between variables.
 4. Next, we'll explore **[Logistic Regression](https://github.com/rujulaaaa/VisionLock/tree/main/Week%201/Logistic%20regression)**, a fundamental method for binary classification tasks.
 
-# End of Week 1
+>A quick heads-up: Split your time such that you end up spending more time on Linear and Logistic Regression and a bit (just a little bit) less on Python and ML Libraries
 
-It's time to put our knowledge to the test. Let's tackle the **[Assignments](LINK_ASSIGNMENTS)** and practice our skills to reinforce our understanding.
-
+>And one more thing I’d really recommend: document whatever you learn just like you to take notes in your JEE classes. Write down every step, may be even add screenshots from the videos. It doesn’t have to be polished at all, even rough notes work perfectly. Your notes can be super informal too — mix of English, Hinglish, or whatever helps you understand things faster. What matters is that you can revisit them later. (And yes… you will need to revise this someday. Future you will be very grateful these notes exist.)
 
