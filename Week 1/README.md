@@ -9,9 +9,9 @@ We’ll begin by working with essential Python libraries—NumPy, Pandas, and Ma
 Some of these topics might not show up directly in our final project, but trust me, they’re the ones that quietly shape your intuition and make everything else feel easier later. And that’s what truly matters! As you work through each concept, you’ll start building the confidence and hands-on intuition needed to take on real computer vision problems. This is the part where the journey starts to feel real—and genuinely exciting.
 
 1. We will begin with a brief revision of **[Python](https://scrimba.com/learn-python-c03)** fundamentals to ensure everyone is on the same page. *(You may skip this section if you are already familiar with Python.)*
-2. We'll cover **[ML Libraries / Python Modules](LINK_ML_LIBRARIES)** to facilitate efficient data manipulation and visualization.
+2. We'll cover **[ML Libraries / Python Modules](https://github.com/rujulaaaa/VisionLock/tree/main/Week%201/ML%20Libraries)** to facilitate efficient data manipulation and visualization.
 3. Our first ML concept will be **[Linear Regression](https://github.com/rujulaaaa/VisionLock/tree/main/Week%201/Linear%20regression)**, a powerful technique for modeling relationships between variables.
-4. Next, we'll explore **[Logistic Regression](LINK_LOGISTIC_REGRESSION)**, a fundamental method for binary classification tasks.
+4. Next, we'll explore **[Logistic Regression](https://github.com/rujulaaaa/VisionLock/tree/main/Week%201/Logistic%20regression)**, a fundamental method for binary classification tasks.
 
 # End of Week 1
 
