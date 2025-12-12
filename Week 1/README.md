@@ -10,7 +10,7 @@ Some of these topics might not show up directly in our final project, but trust 
 
 1. We will begin with a brief revision of **[Python](https://scrimba.com/learn-python-c03)** fundamentals to ensure everyone is on the same page. *(You may skip this section if you are already familiar with Python.)*
 2. We'll cover **[ML Libraries / Python Modules](LINK_ML_LIBRARIES)** to facilitate efficient data manipulation and visualization.
-3. Our first ML concept will be **[Linear Regression](LINK_LINEAR_REGRESSION)**, a powerful technique for modeling relationships between variables.
+3. Our first ML concept will be **[Linear Regression](https://github.com/rujulaaaa/VisionLock/tree/main/Week%201/Linear%20regression)**, a powerful technique for modeling relationships between variables.
 4. Next, we'll explore **[Logistic Regression](LINK_LOGISTIC_REGRESSION)**, a fundamental method for binary classification tasks.
 
 # End of Week 1
