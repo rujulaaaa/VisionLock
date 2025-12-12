@@ -1,8 +1,12 @@
-Learning Python Modules: NumPy, Pandas, and Matplotlib
+## ML Libraries: NumPy, Pandas, and Matplotlib
+
+Now we will be moving to the basic ML Libraries used in ML. Here in this section, we will be learning about NumPy, Pandas and Matplotlib.
+
+>You’ve probably seen these names everywhere while applying to projects, and trust me, that’s normal. They’re used a lot because they’re actually very easy once you start using them.
 
 - **[Numpy](https://youtu.be/QUT1VHiLmmI?si=_9fS5UEdJ1tnISqH)** (Refer **[this](https://numpy.org/doc/stable/user/absolute_beginners.html)** documentation if you have any doubts)
 
-- **[Pandas](https://youtu.be/ZyhVh-qRZPA?si=woMaerkq0-6Q6-So)** (If you prefer videos you can refer **[this](https://www.w3schools.com/python/pandas/default.asp)** )
+- **[Pandas](https://youtu.be/ZyhVh-qRZPA?si=woMaerkq0-6Q6-So)** (If you prefer videos you can refer **[this](https://www.w3schools.com/python/pandas/default.asp)**)
 
 - **[Matplotlib](https://www.w3schools.com/python/matplotlib_intro.asp)**
 
