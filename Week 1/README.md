@@ -1,5 +1,3 @@
-# README.md
-
 # Welcome to Week 1
 
 Welcome to Week 1 of our journey! This week, we’ll lay the groundwork for everything that follows by getting comfortable with the core tools of the machine learning ecosystem. 
