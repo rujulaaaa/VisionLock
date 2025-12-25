@@ -11,7 +11,7 @@ Once we’re comfortable with the tools, we’ll move on to understanding Neural
 
 Finally, we’ll take our first look at YOLOv8, a popular real-time object detection architecture, and explore how it approaches object detection and classification at a high level.
 
-1. **[Tensorflow]()**
+1. **[Tensorflow/ PyTorch](https://github.com/rujulaaaa/VisionLock/tree/main/Week%202/Frameworks)**
 2. **[Neural Networks](https://www.youtube.com/playlist?list=PLZbbT5o_s2xq7LwI2y8_QtvuXZedL6tQU)**
 4. **[YOLOv8]()**
 
