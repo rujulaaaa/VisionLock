@@ -1,4 +1,4 @@
-# Welcome to Week 1
+# Welcome to Week 2
 
 Welcome to Week 2 of our journey! This week, we step into the world of Deep Learning — the part of machine learning where models start learning rich representations directly from data instead of relying on hand-crafted rules.
 
