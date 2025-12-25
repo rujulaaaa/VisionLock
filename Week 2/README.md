@@ -16,7 +16,5 @@ Finally, we’ll take our first look at YOLOv8, a popular real-time object detec
 2. **[Neural Networks](https://www.youtube.com/playlist?list=PLZbbT5o_s2xq7LwI2y8_QtvuXZedL6tQU)** (You can follow the videos 1-18 and 25-38 by skipping 34)
 3. **[YOLOv8](https://github.com/rujulaaaa/VisionLock/tree/main/Week%202/YOLOv8)**
 
->As I had said earlier, try to spend more time understanding Neural Networks conceptually. Framework syntax can always be looked up later, but intuition is what really carries forward.
-
 >And one more thing, please document everything that you learn. You might also have to submit a midterm report of the same. I’ll also be uploading a few more resources under the Week 2 content to make Weeks 3 and 4 feel lighter and more manageable.
 
