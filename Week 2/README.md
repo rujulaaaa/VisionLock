@@ -12,8 +12,9 @@ Once we’re comfortable with the tools, we’ll move on to understanding Neural
 Finally, we’ll take our first look at YOLOv8, a popular real-time object detection architecture, and explore how it approaches object detection and classification at a high level.
 
 1. **[Tensorflow/ PyTorch](https://github.com/rujulaaaa/VisionLock/tree/main/Week%202/Frameworks)**
+>Before starting, try not to spend too much time getting stuck on TensorFlow or Keras syntax. You’ll naturally get comfortable with frameworks over time. For now, put more emphasis on understanding deep learning concepts and YOLO principles.
 2. **[Neural Networks](https://www.youtube.com/playlist?list=PLZbbT5o_s2xq7LwI2y8_QtvuXZedL6tQU)** (You can follow the videos 1-18 and 25-38 by skipping 34)
-4. **[YOLOv8](https://github.com/rujulaaaa/VisionLock/tree/main/Week%202/YOLOv8)**
+3. **[YOLOv8](https://github.com/rujulaaaa/VisionLock/tree/main/Week%202/YOLOv8)**
 
 >As I had said earlier, try to spend more time understanding Neural Networks conceptually. Framework syntax can always be looked up later, but intuition is what really carries forward.
 
