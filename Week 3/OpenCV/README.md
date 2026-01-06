@@ -1,10 +1,6 @@
 # Image Preprocessing – OpenCV
 
-Before we feed images to any deep learning model, we need to make sure the images are in a form that the model can actually learn from. Raw images straight from a camera or dataset are often noisy, inconsistent in size, or poorly structured — and that can hurt performance badly.
-
-This is where **image preprocessing** comes in.
-
-Using **OpenCV**, we clean, standardize, and enhance images so that neural networks can extract useful features more effectively. Good preprocessing often makes a *huge* difference, sometimes even more than changing the model itself.
+Before we feed images to any deep learning model, we need to make sure the images are in a form that the model can actually learn from. Raw images straight from a camera or dataset are often noisy, inconsistent in size, or poorly structured and that can hurt performance badly. Techniques include resizing, normalization, noise reduction, and augmentation. These steps standardize inputs, improve feature extraction, and increase dataset diversity, leading to more robust and efficient neural network training and performance.
 
 ---
 
@@ -34,7 +30,7 @@ In computer vision and deep learning, an image is usually represented as a **Num
 - Pixel values typically range from **0 to 255**
 - This representation allows efficient manipulation using NumPy operations
 
-Understanding this representation is important — once you see images as arrays, everything becomes easier to reason about.
+Understanding this representation is important. Once you see images as arrays, everything becomes easier to reason about.
 
 ---
 
