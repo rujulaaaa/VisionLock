@@ -1,23 +1,78 @@
-# Welcome to Week 3 
+# Convolutional Neural Network (CNN)
 
-Welcome to **Week 3** of our Machine Learning journey!  
-This week is where things start to feel *very* visual — we’ll be working directly with **images**, and learning how machines actually *see* them.
+In the previous week, we learned about **Neural Networks** and how they model relationships in data using layers of neurons.  
+This week, we move one step further and study a specialized and extremely powerful class of neural networks known as **Convolutional Neural Networks (CNNs)**.
 
-We’ll begin with **OpenCV**, a powerful library used to preprocess raw image data. Before a model can learn from images, those images need to be cleaned, resized, normalized, and sometimes denoised. OpenCV helps us do exactly that.
-
-Once we’re comfortable preparing images, we’ll move on to **Convolutional Neural Networks (CNNs)**. CNNs are the neural networks specifically designed to work with image data. CNNs are the backbone of almost every modern vision system, and understanding them is a huge milestone.
+Convolutional Neural Networks are primarily designed to work with **visual data** such as images and videos. They are especially effective at automatically learning spatial features like edges, textures, and shapes, which makes them the backbone of modern computer vision systems.
 
 ---
 
-## What we’ll focus on this week
+## What is a Convolutional Neural Network?
 
-1. **OpenCV for Image Preprocessing**
-- Before a neural network can learn anything useful from images, the images need to be prepared properly. Raw images can be noisy, too large, inconsistent in size, or poorly lit; and that can confuse the model.
-- OpenCV helps us clean things up by resizing images to a fixed shape, normalizing pixel values, reducing noise using blurring, and enhancing important features. 
-2. **Convolutional Neural Networks (CNNs)**   
-- CNNs are neural networks designed specifically to work with image data. Instead of looking at the entire image at once, CNNs scan small parts of the image using filters to detect simple patterns like edges, corners, and textures.
-- As we go deeper into the network, these simple patterns get combined into more complex shapes and objects. This layered way of learning is what makes CNNs so powerful for tasks like image classification, object detection, and recognition.
+A **Convolutional Neural Network (CNN)** is a type of deep learning model that uses **convolution operations** to extract meaningful features from input data.  
+CNNs leverage concepts from **linear algebra** and **signal processing** to detect patterns and hierarchies in data.
 
-3. **Assignment**  
+While CNNs are most commonly applied to images, they can also be adapted for:
+- Audio signals
+- Time-series data
+- Medical scans
+- Video processing
+
+Because of their ability to preserve spatial relationships, CNNs outperform traditional neural networks on most vision-related tasks.
 
 ---
+
+## CNN Architecture
+
+A typical Convolutional Neural Network is composed of three main types of layers:
+
+### 1. Convolutional Layer
+This layer applies filters (kernels) to the input image to extract features such as edges, corners, and textures.
+
+### 2. Pooling Layer
+Pooling layers reduce the spatial dimensions of feature maps, helping:
+- Reduce computation
+- Control overfitting
+- Retain the most important features
+
+### 3. Fully Connected Layer
+These layers perform final classification or regression by combining the extracted features.
+
+To understand these layers in more depth, refer to the **theory section** provided with this module.
+
+---
+
+## How Does a CNN Work?
+
+Before implementing CNNs in applications, it is important to understand how information flows through the network.
+
+A CNN:
+1. Takes an image as input
+2. Applies convolution operations to detect low-level features
+3. Gradually builds higher-level representations
+4. Uses fully connected layers to make predictions
+
+To build intuition:
+- Watch the introductory video
+- Read through the provided theory material for deeper insights
+
+---
+
+## Maths Behind CNNs
+
+CNNs rely heavily on mathematical concepts such as:
+- Convolution operations
+- Matrix multiplication
+- Dot products
+- Gradient-based optimization
+
+To gain a stronger mathematical understanding of CNNs, you can refer to the following resources:
+
+- **Video 1**
+- **Playlist**
+
+These resources explain the math intuitively and visually, making it easier to grasp how CNNs learn.
+
+---
+
+Happy Learning! 🚀
