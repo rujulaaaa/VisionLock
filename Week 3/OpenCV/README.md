@@ -109,7 +109,7 @@ Contours are useful for:
 - **Edge detection** finds abrupt changes in brightness
 - **Contours** use those edges to form meaningful object boundaries
 
-**[Contours Detection]](https://youtu.be/eDIj5LuIL4A?si=qd1B3p3nxdE_um_P)** (1:45:17 – 2:01:20)
+**[Contours Detection](https://youtu.be/eDIj5LuIL4A?si=RG0nvkdy6PpHn8xl)** (1:45:17 – 2:01:20)
 
 ---
 
