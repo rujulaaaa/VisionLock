@@ -22,107 +22,83 @@ Use **OpenCV** when you need deeper control over image quality and structure.
 
 ---
 
-## Image Basics
+## Basics
 
-In computer vision and deep learning, an image is usually represented as a **NumPy array**.
+In computer vision and deep learning, an image is usually represented as a NumPy array.
 
-- Each value in the array represents a **pixel**
-- Pixel values typically range from **0 to 255**
-- This representation allows efficient manipulation using NumPy operations
+- Each value in the array represents a pixel
+- Pixel values typically range from 0 to 25 and indicate the intensity of the colour
+- This representation allows efficient manipulation using NumPy's prevalent operations
 
-Understanding this representation is important. Once you see images as arrays, everything becomes easier to reason about.
-
----
-
-## What Is an Image?
-
-### Image Reading
-Images are read into memory as arrays using OpenCV functions. Once loaded, we can inspect, modify, and transform them just like any other array.
+**[What is Image?](https://youtu.be/oUJs03eZ0S8?si=bi_RGIS0kFu0FBPl)**
+**[Image Reading](https://youtu.be/wRtAoZF50Jc?si=mvJ0XRC3_y9pu1Xt)**
 
 ---
 
-## Image Color Channels
+## Color Channels
 
-- **Grayscale images** are represented as a 2D array:  
-  `(height, width)`
-- **Color images** are represented as a 3D array:  
-  `(height, width, channels)`
+For a grayscale image, it's a 2D array with dimensions (height, width), and for a color image, it's a 3D array with dimensions (height, width, channels), where channels typically represent RGB values.
 
 The channels usually represent color information.
 
-> **Important Note:**  
-OpenCV reads images in **BGR format**, not RGB.
-
-This means:
-- Red and Blue channels are swapped
-- You often need to convert formats depending on the task
-
----
-
-### Topics Covered
-- BGR to GRAY conversion  
-- Understanding BGR channels  
-- BGR vs RGB *(9:41 – 11:50)*  
-- HSV color space *(2:09:31 – 2:29:00)*  
+- **[BGR2GRAY](https://youtu.be/AFrZ3JOQ0Qg?si=ldXZi_9lWMnNllQX)**
+- **[BGR Channels](https://youtu.be/wlH9w1eA6PQ?si=MMQtTz5thDBx1ti7)** 
+- **[BGR vs RGB](https://youtu.be/kSqxn6zGE0c?si=iPLH0e_4wMVLkjNL)**  (9:41 to 11:50)
+- **[HSV](https://youtu.be/eDIj5LuIL4A?si=35pIEMfa7WdusXg8)**  (2:09:31 to 2:29:00)
 
 ---
 
 ## Playing with Images
 
-Before feeding images into a model, we often modify them to:
+Before feeding images into a model, we often modify them by cropping, resizing, rotating and flipping them to:
 - Standardize input sizes
-- Improve learning
-- Increase dataset diversity (data augmentation)
+- Enhance model training
+- Augmenting data
 
 You’ll experiment with:
-- **Resizing**
-- **Flipping**
-- **Cropping**
-- **Rotation**
-- **Drawing shapes and bounding boxes**
-
-> Drawing bounding boxes is especially important for **object detection tasks**, where the model needs to learn *where* objects are.
+- **[Resizing](https://youtu.be/DPkpI2ezVO4?si=pyyyv8RvYGDFC0x2)**
+- **[Flipping](https://youtu.be/Y_78ARbpSwo?si=WVN0pdaiCTV8x3nz)**
+- **[Cropping](https://youtu.be/fanEPKLRbPk?si=k96NIEFCzHDSWgfj)**
+- **[Rotation](https://youtu.be/MtHvL1emJSE?si=4s_HrQP9-W9MB9IK)**
+- **[Drawing shapes and bounding boxes](https://youtu.be/shfXj_Og7ak?si=6WpD2tRN0c-8VFhr)** 
 
 ---
 
 ## Blurring and Noise Removal
 
-Real-world images often contain noise — random variations that don’t carry useful information.
+Real-world images often contain noise, which is nothing but random variations that doesn’t carry useful information.
 
 ### Why blur images?
 - Reduces unwanted noise
 - Smoothens images
 - Helps models focus on important structures
 
-You’ll explore:
-- Gaussian blur
-- Noise reduction techniques
-
-**Blurring section:** *(51:39 – 1:07:00)*
+**[Blurring section](https://youtu.be/eDIj5LuIL4A?si=WUT2V_Ec8uqfDBHq)** (51:39 to 1:07:00)
 
 ---
 
 ## Thresholding and Edge Detection
 
 ### Thresholding
-Thresholding converts grayscale images into **binary images** by setting pixel intensity limits. This simplifies images and makes structure more obvious.
+
+Thresholding converts grayscale images into binary by setting pixel intensity limits. This simplifies images and makes structure more obvious.
 
 ### Edge Detection
-Edge detection techniques (like Canny or Sobel) highlight boundaries in images — places where pixel intensity changes sharply.
+Edge detection techniques (like Canny or Sobel) highlight boundaries in images which are nothing but places where pixel intensity changes sharply.
 
 These edges often correspond to:
 - Object boundaries
 - Shape outlines
 - Important visual features
 
-**Threshold & Edge Detection:** *(1:07:06 – 1:31:30)*
+**[Threshold and Edge Detection](https://youtu.be/eDIj5LuIL4A?si=vo_pEGwp-8M4OBxV)** (1:07:06 – 1:31:30)
 
 ---
 
 ## Contours
 
 ### What are Contours?
-Contours are curves that join continuous points along the boundary of an object. They help represent the **shape and structure** of objects in an image.
+Contours are curves that join continuous points along the boundary of an object. They help represent the shape and structure of objects in an image.
 
 Contours are useful for:
 - Object detection
@@ -133,29 +109,13 @@ Contours are useful for:
 - **Edge detection** finds abrupt changes in brightness
 - **Contours** use those edges to form meaningful object boundaries
 
-**Contours Detection:** *(1:45:17 – 2:01:20)*
+**[Contours Detection]](https://youtu.be/eDIj5LuIL4A?si=qd1B3p3nxdE_um_P)** (1:45:17 – 2:01:20)
 
 ---
 
 ## Image Saving
 
-After processing images, it’s very important to **save them properly**.
+After processing images, it’s very important to save them properly.
+**[Image Saving](https://youtu.be/b_vVNCVDrbw?si=NKHkfrpNOGOx5z7t)** 
 
-Saving processed images allows you to:
-- Reuse them later
-- Build cleaner datasets
-- Avoid repeating expensive preprocessing steps
 
-Never skip this step — it’s a small habit that saves a lot of time later.
-
----
-
-## Final Note
-
-Don’t try to memorize every OpenCV function.  
-Focus on **what each operation does** and **why it’s useful**.
-
-Image preprocessing is as much about intuition as it is about code.  
-Once you understand how images behave, CNNs will start to make a lot more sense.
-
-Take your time, experiment freely, and have fun with it 🙂
