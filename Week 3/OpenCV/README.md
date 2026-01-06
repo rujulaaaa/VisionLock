@@ -30,8 +30,8 @@ In computer vision and deep learning, an image is usually represented as a NumPy
 - Pixel values typically range from 0 to 25 and indicate the intensity of the colour
 - This representation allows efficient manipulation using NumPy's prevalent operations
 
-- **[What is Image?](https://youtu.be/oUJs03eZ0S8?si=bi_RGIS0kFu0FBPl)**
-- **[Image Reading](https://youtu.be/wRtAoZF50Jc?si=mvJ0XRC3_y9pu1Xt)**
+**[What is Image?](https://youtu.be/oUJs03eZ0S8?si=bi_RGIS0kFu0FBPl)**
+**[Image Reading](https://youtu.be/wRtAoZF50Jc?si=mvJ0XRC3_y9pu1Xt)**
 
 ---
 
