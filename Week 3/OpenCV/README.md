@@ -73,7 +73,7 @@ Real-world images often contain noise, which is nothing but random variations th
 - Smoothens images
 - Helps models focus on important structures
 
-**[Blurring section](https://youtu.be/eDIj5LuIL4A?si=WUT2V_Ec8uqfDBHq)** (51:39 to 1:07:00)
+**[Blurring](https://youtu.be/eDIj5LuIL4A?si=WUT2V_Ec8uqfDBHq)** (51:39 to 1:07:00)
 
 ---
 
@@ -116,6 +116,7 @@ Contours are useful for:
 ## Image Saving
 
 After processing images, it’s very important to save them properly.
+
 **[Image Saving](https://youtu.be/b_vVNCVDrbw?si=NKHkfrpNOGOx5z7t)** 
 
 
