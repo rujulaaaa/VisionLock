@@ -37,32 +37,18 @@ To understand these layers in more depth, refer to the **[theory]()** provided w
 
 ## How Does a CNN Work?
 
-Before implementing CNNs in applications, it is important to understand how information flows through the network.
+This **[video](https://youtu.be/zfiSAzpy9NM?si=WieIUoeame_djbb9)** provides an intuitive introduction to how Convolutional Neural Networks work, explaining the core ideas behind convolution, feature extraction, and hierarchical learning in images. It focuses on building visual and conceptual intuition rather than heavy mathematics, making it ideal for beginners starting with CNNs.
 
-A CNN:
-1. Takes an image as input
-2. Applies convolution operations to detect low-level features
-3. Gradually builds higher-level representations
-4. Uses fully connected layers to make predictions
-
-To build intuition:
-- Watch the introductory video
-- Read through the provided theory material for deeper insights
+Go through this **[theory](https://medium.com/thedeephub/convolutional-neural-networks-a-comprehensive-guide-5cc0b5eae175)** to get some more insights.
 
 ---
 
 ## Maths Behind CNNs
 
-CNNs rely heavily on mathematical concepts such as:
-- Convolution operations
-- Matrix multiplication
-- Dot products
-- Gradient-based optimization
-
 To gain a stronger mathematical understanding of CNNs, you can refer to the following resources:
 
-- **[Video 1]()**
-- **[Playlist]()**
+- **[Video 1](https://youtu.be/Lakz2MoHy6o?si=I7x6HDaWkt-jmbuX)**
+- **[Playlist](https://youtube.com/playlist?list=PLuhqtP7jdD8CD6rOWy20INGM44kULvrHu&si=0F57CDqjnL1c2cJt)**
 
 These resources explain the math intuitively and visually, making it easier to grasp how CNNs learn.
 
