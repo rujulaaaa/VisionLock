@@ -31,7 +31,7 @@ Pooling layers reduce the spatial dimensions of feature maps, helping:
 ### 3. Fully Connected Layer
 These layers perform final classification or regression by combining the extracted features.
 
-To understand these layers in more depth, refer to the **[theory]()** provided with this module.
+To understand these layers in more depth, refer to the **[theory](https://medium.com/latinxinai/convolutional-neural-network-from-scratch-6b1c856e1c07)** provided with this module.
 
 ---
 
